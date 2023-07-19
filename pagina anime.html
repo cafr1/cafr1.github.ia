@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-bolla</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+       <aside>
+            <header>
+                <h1 class="logo">C-bolla</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos los productos" class="boton-menu boton-categoria active" >Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="deportes" class="boton-menu boton-categoria">Deportes</button>
+                    </li>
+                    <li>
+                        <button id="anime" class="boton-menu boton-categoria">Anime</button>
+                    </li>
+                    <li>
+                        <button id="mascotas" class="boton-menu boton-categoria">Mascotas</button>
+                    </li>
+                    <li>
+                        <button id="geek" class="boton-menu boton-categoria">Geek</button>
+                    </li>
+                    <li>
+                        <button id="otros" class="boton-menu boton-categoria">Otros</button>
+                    </li>
+                    <li>
+                        <button id="lo mas top" class="boton-menu boton-categoria">Lo Nuevo/TOP</button>
+                    </li>
+                    <li>
+                        <a class="botton-carrito" href="carrito.html">Carrito<span id="numerito" class="numerito">0</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+               <!--Los productos de JS se depositan en este DIV-->
+            </div>
+
+
+        </main>
+
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
